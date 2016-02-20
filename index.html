@@ -2,30 +2,100 @@
 <html>
 <head>
 	<title> Raphael's Webpage</title>
+ 
+ <meta name="viewport" content="width=device-width">
+
+
+	<style>
+
+	@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+	body { 
+			font-family: Lato, arial, sans-serif;
+			background-color: silver;
+			margin: 0 auto;
+			text-align: center
+
+			 }
+
+	#header { 
+			position: relative;
+			background-color: white;
+			text-align: center;
+				 }
+
+
+	#summary, #experience, #education {
+			width: 33%;
+			float: left;
+			background-color: white;
+			margin: 0.1%;
+
+	}
+
+		ul {
+			float: right;
+			list-style: none;
+			display: inline-block;
+
+		}
+
+
+	</style>
+
 </head>
+
+
 <body>
 
 <!-- Think of a better header and a better summary -->
-
-<h1> Hello. </h1>
-<p> This is the personal webpage of Raphael. a global citizen, trained nurse, aspiring developer and forever hungry for junk food. </p>
+<!-- Make banners for header and ways to contact me -->
 
 
-<p> I am a trained nurse from the Philippines, came here to have a better life, worked with children at great ormond street and currently a student in The Iron yard trying to hack it in the tech world. </p>
+		<div id="header">			
+					<h1> Raphael <br> </h1>
+					<span> a global citizen, trained nurse, aspiring developer and forever hungry for junk food.</span> </h1>
 
-<p> I studied at the Philippines, for primary and middle school I studied at the Ateneo de Manila University. For my degree and masters degree, I studied at the University of the East. I truly enjoyed my experiences and memories I made in school, It formed me to the man I am today.  </p>
+		</div>
 
-<h3> Ways to contact me. </h3>
+<div id="link1"> 
+					<a href="#summary"> Link 1</a>
+					<a href="#experience"> link 2</a>
+					<a href="#education"> Link 3</a>
 
-<table>
-	<tr>
-		<td> <a href="mailto:desoyoraphael@gmail.com"> email </td>
-		<td> <a href="tel:+447449972891"> mobile </td>
-		<td> <a href="http://facebook.com/Raparapap"> facebook </td>
-		<td> <a href="http://twiter.com/Raparapap"> twitter </td>
-		<td> <a href="http://instagram.com/Raparapap">instagram </td>
-	</tr>
-</table>
+			</div>
+
+
+	<div id="summary">
+
+				<p> this the personal webpage for Raphael, where you can find, projects, past, present and future, places he's been, food he's eaten and most importantly how to contact him.
+
+	</div>
+
+
+
+	<div id="experience"> 
+				<p> I am a trained nurse from the Philippines, came here to have a better life, worked with children at great ormond street and currently a student in The Iron yard trying to hack it in the tech world. </p>
+	</div>
+
+	<div id="education">
+				<p> I studied at the Philippines, for primary and middle school I studied at the Ateneo de Manila University. For my degree and masters degree, I studied at the University of the East. I truly enjoyed my experiences and memories I made in school, It formed me to the man I am today.  </p>
+	</div>
+
+
+
+<div id="contacts">
+<h1> Banner about contacts </h1>
+		<ul>
+				<li> <a href="mailto:desoyoraphael@gmail.com"> email </li>
+				<li> <a href="tel:+447449972891"> mobile </li>
+				<li> <a href="http://facebook.com/Raparapap"> facebook </li>
+				<li> <a href="http://twiter.com/Raparapap"> twitter </li>
+				<li> <a href="http://instagram.com/Raparapap">instagram </li>
+		</ul>
+ </div>
+
+<a href="#home"> home </a>
 
 </body>
 </html>
