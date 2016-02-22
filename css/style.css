@@ -353,4 +353,15 @@ td,
 th {
   padding: 0; }
 
+body {
+  background-image: url(http://www.visitpluto.com/img/blog/interstellar-desktop-backgrounds/desktop-background-pluto-white-pattern.jpg);
+  color: black;
+  font-family: Lato, arial, sans-serif;
+  clear: both; }
+
+#header {
+  text-align: center;
+  background-color: #36454f;
+  width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
