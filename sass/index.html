@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +7,7 @@
 
 	<meta name="viewport" content="width=device-width">
 
-	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="../css/style.css"> -->
 
 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
@@ -16,161 +15,217 @@
 
 	 <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
+	 <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
 
-<!--
-	 <style type="text/css">
-
-	 body {
-	 		background-image: url(http://www.visitpluto.com/img/blog/interstellar-desktop-backgrounds/desktop-background-pluto-white-pattern.jpg);
-	 		color: black;
-	 		font-family: Lato, arial, sans-serif;
-	 		clear: both;
+	 <link href='http://fonts.googleapis.com/css?family=Gudea' rel='stylesheet' type='text/css'>
 
 
-	 	  }
+				 <style type="text/css">
 
-	 #header {
-	 		text-align: center;
-	 		background-color: #36454f;
-	 		width: 100%;
-
-
-	 }
-
-	 h1	{	
-	 	font-family: Permanent Marker, arial, sans-serif;
-	 	font-size: 50px;
-	 	color: white;
-
-	 }
-
-	 #smallheader {
-
-	 	padding-bottom: 30px;
-	 	color: white;
-	 }
-
-	 hr {
-
-	 	width: 400px;
-
-	 }
-
-	 #navigation {	
-	 		width: 10%;
-	 		height: 1000px;
-	 		text-align: left;
-	 		float: left;
-	 		color: white;
-	 		text-decoration: none;
-	 }
+				 body {
+				 		background-image: url(http://www.visitpluto.com/img/blog/interstellar-desktop-backgrounds/desktop-background-pluto-white-pattern.jpg);
+				 		color: black;
+				 		font-family: Lato, arial, sans-serif;
+				 		
 
 
-	 #content {	
-	 	font-family: Raleway, arial, sans-serif;
-	 	width:90%;
-	 	float: center;
+				 	}
 
-	 }
+				 	.header {
+				 		text-align: center;
+				 		width: 100%;
+				 		color: black;
+				 	}
 
-	 ul {
-
-	 	list-style-type: none;
-	 }
-
-
-	 td {
-
-	 	width:150px;
-
-	 }
+				 	.small-header {
+				 		padding-top: 10px;
+				 		border-top: 1px black solid;
+				 		position: absolute;
+				 		left: 400px;
+				 		top:100px;
 
 
-	 #footer {
-	 	padding-left: 325px;
-	 	padding-right: 345px;
-		 clear: both;
-		bottom:0;
-		left:0;
-		float: left;	
-	 }
+				 	}
+
+				 	.name {
+				 		font-family: Permanent Marker, arial, sans-serif;
+							 	font-size: 50px;
+							 	color: black;
+							 	padding-bottom:5px;
+							 	padding-right: 60px;
+
+				 	}
 
 
-	 </style>
--->
-</head>
+				 	.middlepage {
+				 		display: flex;
+				 	
+				 	}
+
+
+
+				 	.navigation {
+				 		display: flex;
+				 		flex-direction: column;
+				 		overflow: hidden;
+				 		width: 20%;
+				 		text-align: center;	
+				 		padding-top: 40px;
+				 		font-family: 'Nixie One', Georgia, serif;
+
+				 	}
+
+					 	.navbar-summary { 
+					 		padding-top: 20px;
+					 		padding-bottom: 20px;
+
+					 	}
+
+					 	.navbar-experience {
+					 		padding-top: 20px;
+					 		padding-bottom: 20px;
+
+					 	}
+
+					 	.navbar-education {
+					 		padding-top: 20px;
+					 		padding-bottom: 20px;
+
+					 	}
+
+					 	.navbar-projects {
+					 		padding-top: 20px;
+					 		padding-bottom: 20px;
+
+					 	}
+
+					 	.navbar-contact-me {
+					 		padding-top: 20px;
+					 		padding-bottom: 20px;
+
+					 	}
+
+
+
+
+
+
+
+
+				 	.content {
+				 		width: 60%;
+
+
+
+				 	}
+
+				 			
+
+
+					.raphael {
+						text-align: center;
+						padding-left: 125px;
+						width: 60%;
+						
+					}
+
+
+					.raphael-photo {
+							width: 512px;
+				 			height: 516px;
+				 			border-radius: 50%;
+					}
+
+
+
+					.text-columns {
+						display: flex;
+						flex-direction: row;
+						padding-top: 20px;
+					}
+
+						 	.summary {
+
+						 	}
+
+						 	.education {
+
+						 	}
+
+						 	.experience {
+
+						 	}
+
+
+					.footer {
+						position: absolute;
+						left: 500px;
+						padding-top: 20px;
+					}
+
+
+
+
+				 </style>
+
+</head>				
+
 
 <body>
 
-	<div id="header">
-		<h1> RAPHAEL DESOYO </h1> 
-		<p id="smallheader">  global citizen | trained nurse | aspiring web developer | forever hungry for junk food </p>	
-		
+
+	<div class="header">
+		<h1 class="name"> Raphael Desoyo </h1>
+			<span class="small-header"> global citizen | trained nurse | aspiring web developer | forever hungry for junk food <span>
 	</div>
 
 
-	<div id="navigation">
-		<table>
-					
-					<tr> <td> <a href="#summary"> Summary </a> </td> </tr>
-					<tr> <td> <a href="#experience"> Experience </a> </td> </tr>
-					<tr> <td> <a href="#education"> Education</a> </td> </tr>
-					<tr> <td> <a href=""> About </a> </td> </tr>
-					<tr> <td> <a href="">Contact me </a> </td> </tr>
 
-					</tr>
-			</table>
-		
+		<div class="middlepage">
 
-	</div>
+			<div class="navigation bar">
 
-	<div id="content">
-		
-		<img src="1.jpg" />
+							<div class="navbar-summary"><a href="#summary"> Summary </a> </div>
+							 <div class="navbar-experience"> <a href="#experience"> Experience </a> </div>
+							<div class="navbar-education"> <a href="#education"> Education</a> </div>
+							<div class="navbar-projects"> <a href=""> Projects</a> </div>
+							 <div class="navbar-contact-me"> <a href=""> Contact me </a> </div>
+			</div>
 
-		<div id="summary">
 
-					<!-- <p> this the personal webpage for Raphael, where you can find, projects, past, present and future, places he's been, food he's eaten and most importantly how to contact him. </p> -->
+			<div class="content">
 
-					<p> Mauris fringilla pretium nisl, quis eleifend mi condimentum at. Cras venenatis, nunc vitae faucibus tristique, lorem neque pellentesque libero, ac gravida lectus velit sit amet orci. Nam at blandit nibh, vel ultrices libero. Sed rutrum arcu a lobortis fringilla. Mauris dignissim neque a mi interdum porta. Praesent eget augue id nunc commodo pharetra. Donec interdum tristique velit, a facilisis eros. Suspendisse vitae consequat erat, condimentum commodo erat. Vestibulum hendrerit, nunc in lacinia efficitur, leo libero cursus eros, sit amet vestibulum lectus ligula eget ante. Nulla sed dolor ex. Aliquam sagittis semper posuere. Morbi rhoncus orci at odio convallis auctor. Curabitur dolor mi, pharetra eu turpis nec, mattis maximus justo. Nunc lobortis neque porta lobortis vulputate. Vivamus vitae ipsum at diam facilisis gravida vitae ut sem. Suspendisse quis nunc ac sem ornare laoreet et id urna. </p>
+						<div class="raphael">
+						<img src="https://lh4.googleusercontent.com/-SOnBrECsd9w/AAAAAAAAAAI/AAAAAAAAAC8/ee2XKvNZLR0/photo.jpg" class="raphael-photo">
+						</div>
 
+						<div class="text-columns">
+
+						<div class="summary"> <!-- summary about website --> <p> Sed dignissim augue ut diam commodo fermentum. Donec vitae consectetur enim. Sed nisi felis, faucibus a rhoncus in, varius sit amet velit. Nunc a neque non nibh ultricies hendrerit sed eu nunc. Integer a mi est. Nunc imperdiet dolor neque, in bibendum nibh mattis vitae. Cras ut justo et ex volutpat sollicitudin. Proin blandit vulputate ornare. Aenean varius magna in neque scelerisque finibus. Etiam tincidunt a arcu vel viverra. Suspendisse convallis non tellus et lobortis. Nullam non risus accumsan eros placerat venenatis in nec felis. Sed eu risus luctus, eleifend mauris ac, suscipit velit. Aenean in velit velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p></div>
+
+
+						<div class="education"> <!-- content about education --> <p> Phasellus feugiat, massa vel scelerisque placerat, orci tellus vehicula ex, a condimentum nibh lacus scelerisque ante. Suspendisse rhoncus, ante ac mattis scelerisque, nisi leo lacinia odio, ac facilisis tellus quam non ante. Integer ornare at ante eget posuere. Duis malesuada gravida massa et elementum. Nulla facilisi. Vivamus pharetra convallis quam. Mauris a venenatis quam. Maecenas id erat non massa tristique mollis. Donec nulla purus, egestas at erat a, cursus venenatis nibh. Suspendisse nunc nulla, dapibus vitae iaculis non, semper eu metus. Sed tempor, sem non accumsan congue, neque massa vestibulum erat, ac commodo ex dui et arcu. Donec accumsan velit massa, eu ultricies orci tempor sed. </p></div>
+
+
+						<div class="experience"> <!-- content about experience --> <p> Ut quis volutpat orci. Donec vitae eros dictum, congue nunc eu, dictum enim. Pellentesque ullamcorper sodales purus, id aliquet est luctus porttitor. Phasellus pulvinar tortor metus, a varius tortor facilisis a. Pellentesque quis elit ornare, porta tellus ut, feugiat lacus. Curabitur est ex, consequat ac nulla nec, consequat sagittis ligula. Suspendisse potenti. Morbi eu felis nec tortor commodo sagittis quis ac est. Curabitur dignissim augue neque, id dictum sem pharetra sit amet. Praesent quis odio est. Vivamus eget dolor sed nibh auctor dignissim a ac quam. Aliquam at augue varius dui ornare tempus quis a lacus.  </p> </div>
+
+						</div>
+
+			</div>
 
 
 		</div>
 
-		<div id="experience"> 
-					<!-- <p> I am a trained nurse from the Philippines, came here to have a better life, worked with children at great ormond street and currently a student in The Iron yard trying to hack it in the tech world. </p> -->
-
-					<p>	Donec hendrerit congue sem id fringilla. Sed convallis leo in libero convallis, id sagittis nunc scelerisque. Vestibulum condimentum odio ac semper tincidunt. Donec vitae lorem maximus, vulputate libero sit amet, mattis est. Donec lobortis urna ut justo ornare fermentum. Quisque condimentum magna ut neque blandit imperdiet. Phasellus mi nisi, scelerisque sit amet nibh non, interdum commodo augue. Proin at dui eget sapien vulputate hendrerit. Vestibulum iaculis dui at interdum varius. Donec nisi mauris, vestibulum sed mi eu, suscipit consequat odio. Fusce molestie vestibulum erat at feugiat. Suspendisse potenti. Maecenas aliquet vel ante ut condimentum. Etiam tristique rhoncus velit non rhoncus. Nullam sit amet cursus augue. </p>
-		</div>
-
-		<div id="education">
-					<!-- <p> I studied at the Philippines, for primary and middle school I studied at the Ateneo de Manila University. For my degree and masters degree, I studied at the University of the East. I truly enjoyed my experiences and memories I made in school, It formed me to the man I am today.  </p> -->
-
-					<p> Aliquam pretium nisi vel ante imperdiet, eget vehicula massa vestibulum. Integer tempus mauris auctor fringilla tincidunt. Quisque aliquam risus sit amet arcu pellentesque, eu lobortis urna tempus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis quam quam, iaculis vitae volutpat quis, pharetra et nisi. Sed eget diam in erat tincidunt sagittis id sit amet sapien. Praesent feugiat ex ut nulla bibendum cursus. Nullam lacinia diam nec varius fermentum. Nullam vulputate, quam placerat faucibus tempor, enim odio consectetur est, a faucibus mauris tortor sed dui. Integer consectetur orci vehicula commodo commodo. </p>
+	<div class="footer">
 
 
-		</div>
-
-
+						<a href="mailto:desoyoraphael@gmail.com"> <i class="fa fa-envelope"> email </i> </a> 
+						<a href="tel:+447449972891"> <i class="fa fa-mobile">  mobile </i> </a> </td>
+						<a href="http://facebook.com/Raparapap"> <i class="fa fa-facebook-official"> facebook </i> </a> 
+						<a href="http://twiter.com/Raparapap"> <i class="fa fa-twitter"> twitter </i> </a> 
+						<a href="http://instagram.com/Raparapap"> <i class="fa fa-instagram"> instagram</i> </a> 
+		
 	</div>
-
-
-
-	<div id="footer">
-			<table>
-				<tr>
-						<td> <a href="mailto:desoyoraphael@gmail.com"> <i class="fa fa-envelope"> email </i> </a> </td>
-						<td> <a href="tel:+447449972891"> <i class="fa fa-mobile">  mobile </i> </a> </td>
-						 <td> <a href="http://facebook.com/Raparapap"> <i class="fa fa-facebook-official"> facebook </i> </a> </td>
-						<td> <a href="http://twiter.com/Raparapap"> <i class="fa fa-twitter"> twitter </i> </a> </td>
-						<td> <a href="http://instagram.com/Raparapap"> <i class="fa fa-instagram"> instagram</i> </a> </td>
-				</tr>
-			</table>	
-
-	</div>
-
-
 
 </body>
 </html>
