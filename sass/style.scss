@@ -1,82 +1,13 @@
+@import 'normalize';
+@import 'global';
+@import 'header';
+@import 'middlepage';
+@import 'footer';
 
 
-		 *	{
-		 	margin: 0px;
-		 	padding: 0px;
-		 	font-family: Lato, arial, sans-serif;
 
-		 	}
-
-		 body { 
-		 	background-image: url(http://www.visitpluto.com/img/blog/interstellar-desktop-backgrounds/desktop-background-pluto-white-pattern.jpg);
-		 	color: black;
-	 		font-family: Lato, arial, sans-serif
-
-		 }
+				 	
 
 
-		 #header {
-		 	background-color: #36454f;
-		 	width: 100%;
-		 	text-align: center;
-		 	margin-bottom: 30px;
+					
 
-		 }
-
-
-		 h1	{	
-	 	font-family: Permanent Marker, arial, sans-serif;
-	 	font-size: 50px;
-	 	color: white;
-
-
-	 }
-
-
-	 	#smallheader {
-
-	 	padding-bottom: 30px;
-	 	color: white;
-	 }
-
-
-	 #navigation {
-	 	 	width: 15%;
-	 	 	height: 650px;
-	 	 	padding-left: 50px;
-	 	display: inline-block;
-	 	float: left;
-	 	position: relative;
-	 		top: 50px
-	 }
-
-
-	 #navigation table	{
-	 	width: 50px;
-	 	height: 20px;
-	 	font-size: 20px;
-	 }
-
-
-	 #content {	
-	 	font-family: Raleway, arial, sans-serif;
-	 	width:90%;
-	 	text-align: center;
-	 	clear: right;	
-	 	overflow: visible;	
-
-	 }
-
-
-	 #footer {
-	 	width: 50%;
-	 	position: relative;
-	 	bottom: -365px;
-	 	right: -290px;
-
-	 }
-
-	 img { 
-	 	float: left;
-
-	 	 }
